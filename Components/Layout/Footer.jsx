@@ -6,7 +6,7 @@ import {GrFacebookOption} from 'react-icons/gr'
 const Footer = () => {
   return (
     <div className='footer'>
-        <div className="container-fluid px-3 py-5">
+        <div className="container-fluid px-4 py-5">
             <div className="row">
                 <div className="col-md-3 col-12 my-3">
                     <div>
@@ -17,8 +17,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col-md-6 col-12 text-center my-3">
-                    <div className='d-flex justify-content-between'>
-                    <div>
+                    <div className=' getsomnium d-flex justify-content-between'>
+                    <div className='py-3'>
                         <div>
                             Get Somnium
                         </div> <br />
@@ -26,7 +26,7 @@ const Footer = () => {
                             Events
                         </div>
                     </div>
-                    <div>
+                    <div className='py-3'>
                         <div>
                             Partners
                         </div> <br />
@@ -34,7 +34,7 @@ const Footer = () => {
                             Support
                         </div>
                     </div>
-                    <div>
+                    <div className='py-3'>
                         <div>
                             Terms of Service
                         </div> <br />
@@ -42,7 +42,7 @@ const Footer = () => {
                             Privacy Policy
                         </div>
                     </div>
-                    <div>
+                    <div className='py-3'>
                         <div>
                             FAQ
                         </div> <br />

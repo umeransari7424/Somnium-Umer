@@ -54,11 +54,13 @@
         background-color: black;
         width: 308px; 
         .btn-client{
+            border-radius: 0px;
             background-color: #08f;
-            border-color: #08f;
+            border: 2px solid #1290ff ;
             // border: 4px solid #fff !important;
             // background: radial-gradient(circle,#fff 19%,#1290ff 100%);
             -webkit-clip-path: polygon(22% 0,100% 0,100% 100%,11% 100%);
+            background: linear-gradient(90deg,#024675 0,#007ce5 36%,#0082f3 41%,#0083f5 44%,#007fec 49%,#0175d7 56%,#03324b);
             padding-top: 10px;
             padding-bottom: 10px;
             &:hover{
@@ -68,7 +70,8 @@
             
         }   
         .join{
-            border-color: #f60;
+            border-radius: 0px;
+            border: 2px solid #9c2b00;
             background: linear-gradient(90deg,#9c2b00 0,#e45600 33%,#f05d00 40%,#f35f00 46%,#ee5c00 50%,#dc5100 60%,#841d00);
             position: relative;
             -webkit-clip-path: polygon(11% 0,100% 0,100% 100%,0 100%);
@@ -85,12 +88,78 @@
 .footer{
     color: white;
     background-color: black;
-    .footer-icon{
-        // display: flex;
-        // padding-left: 15px !important;
-        // padding-right: 15px !important;
-
+    
+}
+.available{
+    // background-color: #007ce5;
+    border: 2px solid #91dbff;
+    background-image: linear-gradient(90deg,rgba(145,219,255,0) 0,rgba(145,219,255,.5) 50%,rgba(145,219,255,0));
+    h1{
+        text-shadow: 0 0 8px rgb(145 219 255 / 75%);
+    color: #fff;
+    font-family: Sony Sketch EF;
+    font-size: 2.1rem;
+    font-weight: 400;
+    // margin: 0;
     }
+}
+.social{
+    background-color: rgba(255,190,0,.5) ;
+    border: 2px solid #ffbe00;
+    background-image: linear-gradient(90deg,rgba(145,219,255,0) 0,rgba(255,190,0,.5) 50%,rgba(145,219,255,0));
+    .tele{
+        border-right: 2px solid #fff;
+    }
+}
+.sonium{
+    background-image: url("../Media/somniumbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white ;
+    h1{
+        font-weight: 700;
+    }
+
+}
+.ingame{
+    background-image: url("../Media/somniumbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white ;
+    h1{
+        font-weight: 700;
+    }
+    .imgame-pic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ingame-para{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        // justify-content: flex-end;
+    }
+    
+
+}
+.virtual{
+    background-image: url("../Media/somniumbg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white ;
+    h1{
+        font-weight: 700;
+    }
+    .we{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
 @media screen and (max-width: 600px){
     .main-header{
@@ -107,10 +176,26 @@
     .download{
         width: 320px !important;
     } 
-    .footer-icon{
-        display: flex;
+    .footer{
+
+        .footer-icon{
+            display: flex;
+        }
         justify-content: space-between !important;
         // padding-left: -10px !important;
         // padding-right: -10px !important;
+        .getsomnium{
+            display: flex;
+            flex-direction: column;
+        }
     }
+    .available{
+        .now{
+            display: flex;
+            // align-items: center !important;
+            justify-content: center;
+            
+        }
+    }
+
 }
