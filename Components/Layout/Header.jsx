@@ -73,7 +73,7 @@ const Header = () => {
               </ul>
               </div>
             </div>
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            &nbsp; &nbsp; &nbsp; &nbsp; 
             <div>
               <div>
                 <button type="button" className="btn btn-primary explore">
