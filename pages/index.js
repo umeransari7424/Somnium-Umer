@@ -9,6 +9,7 @@ import Sonium from '../Components/Elemets/Sonium'
 import Ingame from '../Components/Elemets/Ingame'
 import Virtual from '../Components/Elemets/Virtual'
 import Footer from '../Components/Layout/Footer'
+import Hero from '../Components/Elemets/Hero'
 // import "bootstrap/dist/js/bootstrap.bundle"
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
     <> 
     {/* <Available/> */}
     <Header/>
+    <Hero/>
     <Virtual/>
     <Ingame/>
     <Sonium/>

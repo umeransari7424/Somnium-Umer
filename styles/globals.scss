@@ -85,6 +85,73 @@
         }
     }
 }
+.hero{
+    background-image: url("../public/Assets/landing.png");
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+    position: relative;
+    // overflow: hidden;
+    .hero-video{
+        position: relative;
+        overflow: hidden;
+        width: 100% !important;
+        height: 120%;
+    }
+    .carousel.carousel-slider .control-arrow {
+        // position: absolute !important;
+        width: 65px !important;
+        border-radius: 50% !important ;
+        margin-left: 55px !important;
+        margin-right: 830px;
+        background-color: black !important;
+        bottom: 16px !important;
+        margin-top: 670px !important;
+        &:hover{
+            background-color: black !important;
+        }
+    }
+    // .hero-bottom{
+    //     position: absolute;
+    //     background-color: rgba(116,177,208,.9058823529411765);
+    //     height: 80px;
+    //     bottom: 0px;
+    //     width: 580px;
+    // }
+    .herobg{
+
+        // background-image: url("../public/Assets/AvatarsAnimation.mp4");
+        // background-position: center;
+        // background-repeat: no-repeat;
+
+    }
+    // .react-multiple-carousel__arrow--right{
+    //     right : calc(65% - 1px)
+    // }
+    // .react-multiple-carousel__arrow{
+    //     margin-top: 200px;
+    // }
+    // .react-multiple-carousel__arrow{
+    //     top: 500px;
+    //     left: -500;
+    // }
+    // .react-multi-carousel-dot-list{
+    //     position: absolute;
+    //     z-index: 5;
+    //     right: auto;
+    //     left: 200px;
+    //     bottom: 33px;
+    // }
+    .carousel .control-dots{
+        width: 42%;
+        padding-top: 38px !important;
+        // background-color: wheat !important;
+        background-color: rgba(116,177,208,.9058823529411765) !important;
+        padding-bottom: 30px !important;
+        // margin-bottom: 0px !important;
+    
+    }
+}
 .footer{
     color: white;
     background-color: black;
@@ -197,5 +264,6 @@
             
         }
     }
+    
 
 }
