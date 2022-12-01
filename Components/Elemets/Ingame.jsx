@@ -46,7 +46,7 @@ Buy and customize your own land. Build anything you envision.</p>
             </div>
             <div className="row ">
                 <div className="col-md-4 text-end ingame-para">
-                    <h3>Live Forever</h3>
+                    <h3 className='live'>Live Forever</h3>
                     <p>Automatic recording mode of yourself on your own property for future AI analysis to bring your avatar to life.</p>
                 </div>
                 <div className="col-md-2 imgame-pic">

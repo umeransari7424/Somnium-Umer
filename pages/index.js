@@ -10,6 +10,8 @@ import Ingame from '../Components/Elemets/Ingame'
 import Virtual from '../Components/Elemets/Virtual'
 import Footer from '../Components/Layout/Footer'
 import Hero from '../Components/Elemets/Hero'
+import Community from '../Components/Elemets/Community'
+import Ethereum from '../Components/Elemets/Ethereum'
 // import "bootstrap/dist/js/bootstrap.bundle"
 
 export default function Home() {
@@ -18,9 +20,11 @@ export default function Home() {
     {/* <Available/> */}
     <Header/>
     <Hero/>
+    <Ethereum/>
     <Virtual/>
     <Ingame/>
     <Sonium/>
+    <Community/>
     <Social/>
     <Footer/>
     </>
