@@ -1,7 +1,8 @@
 import {AiFillWindows} from "react-icons/ai";
+import{FaFacebookF} from "react-icons/fa"
 const Header = () => {
   return (
-    <div className="d-flex main-header">
+    <div className="d-flex main-header ">
       <div className="header d-flex">
         <nav className="navbar navbar-expand-lg ">
           <div className="container-fluid header ">
@@ -65,7 +66,7 @@ const Header = () => {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link active" aria-current="page" href="/">
-                    Partners
+                    <FaFacebookF />
                   </a>
                 </li>
                 

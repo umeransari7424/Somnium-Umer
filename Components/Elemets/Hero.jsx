@@ -151,10 +151,9 @@ const Hero = () => {
               />
               <h3 style={{ color: "white" }}>Marketplace</h3>
             </div>
-          </div>
-          {/* <div
+            <div
             className=" position-absolute economy"
-            style={{ top: "15rem", right:"0px", color: "white" }}
+            style={{ top: "40%", right:"30%", color: "white" }}
           >
             <div className="d-flex">
               <div>
@@ -173,7 +172,7 @@ const Hero = () => {
           </div>
           <div
             className="position-absolute economy"
-            style={{ top: "25rem", color: "white" }}
+            style={{ top: "57%", right:"30%", color: "white" }}
           >
             <div className="d-flex">
               <div>
@@ -185,13 +184,47 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </div> */}
-          {/* <div
+          </div>
+          <div
             className=" position-absolute economy"
-            style={{ top: "31rem", left: "36rem", color: "white" }}
+            style={{ top: "67%", left: "41%", color: "white" }}
           >
-           
-          </div> */}
+           <img src="Assets/openseabg.png" alt="opensea" className="img-fluid" width={"65%"} />
+          </div>
+          <div
+            className=" position-absolute economy"
+            style={{ top: "69%", left: "36rem", color: "white" }}
+          >
+           <img src="Assets/opensea.png" width={"65%"}  className="img-fluid" alt="" />
+          </div>
+          <div
+            className=" position-absolute economy"
+            style={{ top: "67%", left: "53%", color: "white" }}
+          >
+           <img src="Assets/uniswapbg.png" alt="opensea" className="img-fluid" width={"65%"} />
+          </div>
+          <div
+            className=" position-absolute economy"
+            style={{ top: "69%", left: "55%", color: "white" }}
+          >
+           <img src="Assets/uniswap.png" width={"65%"}  className="img-fluid" alt="" />
+          </div>
+          <div
+            className=" position-absolute economy"
+            style={{ top: "67%", left: "65%", color: "white" }}
+          >
+           <img src="Assets/openseabg.png" alt="opensea" className="img-fluid" width={"65%"} />
+          </div>
+          <div
+            className=" position-absolute economy"
+            style={{ top: "69%", left: "67%", color: "white" }}
+          >
+           <img src="Assets/herogemini.png" width={"65%"}  className="img-fluid" alt="" />
+          </div>
+          </div>
+          
+          
+          
         </div>
       </div>
     </div>
